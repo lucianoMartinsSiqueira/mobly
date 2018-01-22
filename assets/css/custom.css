@@ -1,0 +1,14 @@
+ul.navbar-nav .nav-item .nav-link
+{
+    color: #FFF;
+    font-weight: bold;
+}
+.color-blue
+{
+    color: #00aeb3 !important;
+}
+
+.error
+{
+    color: #fb3a3a;
+}
