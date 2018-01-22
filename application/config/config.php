@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://lab.kpimobile.com.br';
-$config['base_url'] = 'http://localhost:8080/NewShop';
+$config['base_url'] = 'http://localhost:8080/mobly';
 
 /*
 |--------------------------------------------------------------------------
