@@ -43,6 +43,7 @@ class Carrinho_db extends CI_Model
         $this->db->select( $select );
         $this->db->from( 'endereco' );
         $this->db->where( "endereco.cliente_id = $id" );
+        $this->db->order_by( 'id' );
         $query = $this->db->get();
 
         if ( $query->num_rows() > 0 ) 
@@ -70,11 +71,11 @@ class Carrinho_db extends CI_Model
     {
         $result = $this->db->insert( $tabela, $dados );
 
-        $usuario_id_insert = $this->db->insert_id();
+        $id_insert = $this->db->insert_id();
 
         if( $result == true )
         {
-            return $usuario_id_insert;
+            return $id_insert;
         }
         else
         {

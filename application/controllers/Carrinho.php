@@ -216,13 +216,19 @@ class Carrinho extends CI_Controller
         $enderecos = $this->carrinho_db->enderecos( $_SESSION['cliente_id'] );
         
         $retorno = "";
+        $selected = "";
         
         foreach( $enderecos as $endereco )
         {
+            if( $res == $endereco->id )
+            {
+                $selected = "checked";
+            }
+            
             $retorno .= "<div class='row m-t-20' style='background-color: #F8D486; padding: 5px;'>
                 <div class='col-md-12 form-group'>
                     <label class='custom-control custom-checkbox'>
-                        <input class='custom-control-input' name='endereco[]' value='$endereco->id' type='checkbox'>
+                        <input class='custom-control-input' name='endereco[]' value='$endereco->id' type='checkbox' $selected>
                         <span class='custom-control-indicator'></span>
                         <span class='custom-control-description'>Selecionar este endereço para entrega</span>
                     </label>

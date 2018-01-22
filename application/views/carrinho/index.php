@@ -212,7 +212,7 @@
                         </div>
                         <div class="modal-footer" id="login-modal-footer">
                             <button type="button" class="btn btn-inverse waves-effect" data-dismiss="modal">Cancelar</button>
-                            <button type="button" class="btn btn-success waves-effect waves-light" id="btnAddEndereco">Entrar</button>
+                            <button type="button" class="btn btn-success waves-effect waves-light" id="btnAddEndereco">Registrar</button>
                         </div>
                     </div>
                 </div>
