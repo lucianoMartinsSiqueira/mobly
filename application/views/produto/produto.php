@@ -94,6 +94,19 @@
     
     <?php $template->bottom(); ?>
     
+    <script src="<?php echo base_url('assets/js/owl.carousel.min.js'); ?>"></script>
+    <script type="text/javascript">
+    $('.image-slide').owlCarousel({
+        autoplay: true,
+        autoplayHoverPause: false,
+        items: 1,
+        loop: true,
+        margin: 0,
+        nav: false,
+        dots: true
+
+    })
+    </script>
 </body>
 
 

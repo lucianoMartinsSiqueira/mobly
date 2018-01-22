@@ -28,6 +28,7 @@ class Template
                 <link href="<?php echo base_url('assets/css/aos.css'); ?>" rel="stylesheet">
                 <link href="<?php echo base_url('assets/css/prism.css'); ?>" rel="stylesheet">
                 <link href="<?php echo base_url('assets/css/perfect-scrollbar.min.css'); ?>" rel="stylesheet">
+                <link href="<?php echo base_url('assets/css/owl.theme.green.css'); ?>" rel="stylesheet">
                 <link href="<?php echo base_url('assets/css/style.css'); ?>" rel="stylesheet">
                 <link href="<?php echo base_url('assets/css/custom.css'); ?>" rel="stylesheet">
             </head>
